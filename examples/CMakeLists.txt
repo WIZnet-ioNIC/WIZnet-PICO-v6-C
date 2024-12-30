@@ -1,2 +1,2 @@
 add_subdirectory(loopback)
-# add_subdirectory(AddressAutoConfiguration)
+add_subdirectory(AddressAutoConfiguration)

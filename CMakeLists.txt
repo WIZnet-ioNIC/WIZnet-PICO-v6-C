@@ -1,8 +1,8 @@
 # CMake minimum required version
 cmake_minimum_required(VERSION 3.12)
 
-set(BOARD_NAME W6100_EVB_PICO)
-# set(BOARD_NAME W6100_EVB_PICO2)
+# set(BOARD_NAME W6100_EVB_PICO)
+set(BOARD_NAME W6100_EVB_PICO2)
 
 # Set ethernet chip
 set(WIZNET_CHIP W6100)
