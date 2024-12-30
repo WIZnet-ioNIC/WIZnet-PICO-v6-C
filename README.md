@@ -1,4 +1,4 @@
-# RP2040 & W6x00 Ethernet Examples
+# RP2040, RP2350 & W6x00 Ethernet Examples
 
 - [**Overview**](#overview)
 - [**Getting Started**](#getting_started)
@@ -39,7 +39,7 @@ Please refer to [**Getting Started**][link-getting_started] for how to configure
 
 ```cpp
 # Set board
-set(W6100-EVB-Pico)
+set(BOARD_NAME W6100_EVB_PICO)
 ```
 
 When using W6100-EVB-Pico2 :
@@ -55,14 +55,13 @@ set(BOARD_NAME W6100_EVB_PICO2)
 ## Directory Structure
 
 ```
-RP2040-v6-HAT-C
+WIZnet-PICO-v6-C
 ┣ examples
 ┃   ┣ AddressAutoConfiguration
 ┃   ┗ loopback
 ┣ libraries
 ┃   ┣ io6Library
 ┃   ┣ mbedtls
-┃   ┣ pico-extras
 ┃   ┗ pico-sdk
 ┣ port
 ┃   ┣ io6Library
@@ -80,12 +79,6 @@ RP2040-v6-HAT-C
 
 
 
-<a name="other_examples"></a>
-### Other Examples
-
-- C/C++
-    - [**RP2040-v6-HAT-FREERTOS-C**][link-rp2040-v6-hat-freertos-c]
-
 
 
 <!--
@@ -93,6 +86,7 @@ Link
 -->
 
 [link-rp2040]: https://www.raspberrypi.org/products/rp2040/
+[link-rp2350]: https://www.raspberrypi.org/products/rp2350/
 [link-w6100]: https://docs.wiznet.io/Product/iEthernet/W6100/overview
 [link-w6100-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W6100/w6100-evb-pico
 [link-w6100-evb-pico_main]: https://github.com/Wiznet/RP2040-v6-HAT-C/blob/main/static/images/w6100-evb-pico_main.png
