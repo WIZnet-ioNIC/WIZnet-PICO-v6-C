@@ -1,6 +1,7 @@
 # CMake minimum required version
 cmake_minimum_required(VERSION 3.12)
 
+# Set board
 # set(BOARD_NAME W6100_EVB_PICO)
 set(BOARD_NAME W6100_EVB_PICO2)
 
