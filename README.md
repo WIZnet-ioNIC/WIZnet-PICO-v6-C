@@ -92,5 +92,4 @@ Link
 [link-w6100-evb-pico_main]: https://github.com/Wiznet/RP2040-v6-HAT-C/blob/main/static/images/w6100-evb-pico_main.png
 [link-w6100-evb-pico2]: https://docs.wiznet.io/Product/iEthernet/W6100/w6100-evb-pico2
 [link-w6100-evb-pico2_main]: https://docs.wiznet.io/assets/images/w6100-evb-pico2-docs-0d662aa52a0089de8d06d14d756c1e12.png
-[link-getting_started]: https://github.com/Wiznet/RP2040-v6-HAT-C/blob/main/static/documents/getting_started.md
-[link-rp2040-v6-hat-freertos-c]: https://github.com/Wiznet/RP2040-v6-HAT-FREERTOS-C
+[link-getting_started]: https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C/blob/main/static/documents/getting_started.md
