@@ -26,7 +26,8 @@
  * ----------------------------------------------------------------------------------------------------
  */
 /* Clock */
-#define PLL_SYS_KHZ (133 * 1000)
+// #define PLL_SYS_KHZ (133 * 1000) // for Pico 1
+#define PLL_SYS_KHZ (150 * 1000) // for Pico 2
 
 /* Buffer */
 #define ETHERNET_BUF_MAX_SIZE (1024 * 2)
